@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "npm-package",
+  "version": "1.0.0",
+  "description": "Template for NPM package",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ogonkov/npm-package.git"
+  },
+  "keywords": [],
+  "author": "ogonkov <lesha.ogonkov@gmail.com>",
+  "license": "MIT"
+}
