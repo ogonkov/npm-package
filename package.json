@@ -6,7 +6,13 @@
   "main": "index.js",
   "files": [],
   "scripts": {
-    "test": "jest"
+    "build": "echo \"Error: no build command specified\" && exit 1",
+    "lint": "eslint src",
+    "pretest": "rm -rf .coverage && npm run lint",
+    "test": "jest",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags",
+    "prepack": "npm run build"
   },
   "repository": {
     "type": "git",
