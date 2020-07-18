@@ -23,6 +23,7 @@ Template for NPM package
 * Add package files to `files` in `package.json`
 * Squash all commits to `Initial commit`
 * Edit this readme
+* Setup branches protection
 
 ## NPM scripts
 
@@ -34,3 +35,7 @@ Template for NPM package
   `master` branch)
 * `postversion` push changed `package.json` and tags
 * `prepack` build library before packing it
+
+## TODO
+
+* Decide on coverage service
