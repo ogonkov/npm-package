@@ -1,0 +1,24 @@
+{
+  "parser": "babel-eslint",
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {},
+  "overrides": [
+    {
+      "files": [
+        "*.spec.js",
+        "*.test.js"
+      ],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
+}
