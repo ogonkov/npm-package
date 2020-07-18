@@ -20,6 +20,7 @@ Template for NPM package
 * Change `scripts.build` to actual build command
 * Remove `private` in `package.json`
 * Add package files to `files` in `package.json`
+* Squash all commits to `Initial commit`
 * Edit this readme
 
 ## NPM scripts
