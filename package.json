@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "Template for NPM package",
   "main": "index.js",
+  "files": [],
   "scripts": {
     "test": "jest"
   },
