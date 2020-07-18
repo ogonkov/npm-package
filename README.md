@@ -16,7 +16,8 @@ Template for NPM package
 
       echo '.idea' >> .git/info/exclude
 
-* Change `repository.url`, `description` and `keywords` in `package.json`
+* Change `name`, `repository.url`, `homepage`, `bugs`, `description` and
+  `keywords` in `package.json`
 * Change `scripts.build` to actual build command
 * Remove `private` in `package.json`
 * Add package files to `files` in `package.json`

@@ -18,6 +18,8 @@
     "type": "git",
     "url": "https://github.com/ogonkov/npm-package.git"
   },
+  "homepage": "https://ogonkov.github.io/npm-package/",
+  "bugs": "https://github.com/ogonkov/npm-package/issues",
   "keywords": [],
   "author": "ogonkov <lesha.ogonkov@gmail.com>",
   "license": "MIT",
